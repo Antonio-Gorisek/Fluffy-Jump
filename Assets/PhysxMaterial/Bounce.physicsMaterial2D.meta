@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2096337e7dae4e840b66029082174b53
+timeCreated: 1445028413
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 40588
+  packageName: FurBall 2D V1.2 mobile optimized
+  packageVersion: 1.2
+  assetPath: Assets/FurBall2D_mobile/PhysxMaterial/Bounce.physicsMaterial2D
+  uploadId: 89137

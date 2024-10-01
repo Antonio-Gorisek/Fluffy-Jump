@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f9ba404a2df107846ae90b59fe6e5418
+timeCreated: 1445199349
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 40588
+  packageName: FurBall 2D V1.2 mobile optimized
+  packageVersion: 1.2
+  assetPath: Assets/FurBall2D_mobile/PhysxMaterial/FrictionBounce.physicsMaterial2D
+  uploadId: 89137

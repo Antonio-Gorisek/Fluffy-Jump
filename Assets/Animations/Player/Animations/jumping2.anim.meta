@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2ccb77920dfbd3b4fbbf599d4ef22586
+timeCreated: 1435441664
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 40588
+  packageName: FurBall 2D V1.2 mobile optimized
+  packageVersion: 1.2
+  assetPath: Assets/FurBall2D_mobile/Animations/jumping2.anim
+  uploadId: 89137

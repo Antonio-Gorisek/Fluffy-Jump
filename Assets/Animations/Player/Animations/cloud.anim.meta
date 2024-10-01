@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9713ce55031c5654886697146443a275
+timeCreated: 1435947729
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 40588
+  packageName: FurBall 2D V1.2 mobile optimized
+  packageVersion: 1.2
+  assetPath: Assets/FurBall2D/Animations/cloud.anim
+  uploadId: 89137

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8c0efb20508846541b37073df35edb08
+timeCreated: 1445027546
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 40588
+  packageName: FurBall 2D V1.2 mobile optimized
+  packageVersion: 1.2
+  assetPath: Assets/FurBall2D_mobile/PhysxMaterial/Friction.physicsMaterial2D
+  uploadId: 89137
