@@ -7,8 +7,8 @@
 
 This game was created purely for fun and serves as a challenge developed in a short amount of time. The goal is to jump from platform to platform as you move continuously forward. Missing or skipping any platform results in failure, and as the game progresses, the speed of the player’s movement gradually increases. The challenge is to last as long as possible and achieve the highest time-based score.
 
-Before downloading the project, you can try the playtest directly on the web, <a href="https://antonio-gorisek.itch.io/fluffy-jumper">click here</a>.<br> 
-The game is also available for download on Windows, macOS, Linux, and Android. You can <a href="https://antonio-gorisek.itch.io/fluffy-jumper-download">click here</a> to access it.
+Before downloading the project, you can try the playtest directly on the web, <a href="https://antonio-gorisek.itch.io/fluffy-jump">click here</a>.<br> 
+The game is also available for download on Windows, macOS, Linux, and Android. You can <a href="https://antonio-gorisek.itch.io/fluffy-jump-download">click here</a> to access it.
 
 ### Key Features:
 - **Simple controls:** Intuitive and quick controls.
