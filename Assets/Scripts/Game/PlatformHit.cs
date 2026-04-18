@@ -10,8 +10,8 @@ public class PlatformHit : MonoBehaviour
 {
     private int _mustHitTimes = 1; // Total hits required to destroy the platform
     private int _minMustTimes = 1;  // Minimum hits required
-    private int _maxMustTimes = 2;  // Maximum hits required
-    [SerializeField] private TMP_Text _textHitTimes; // UI element displaying the hit count
+    private int _maxMustTimes = 1;  // Maximum hits required
+    //[SerializeField] private TMP_Text _textHitTimes; // UI element displaying the hit count
 
     /// <summary>
     /// Initializes the platform hit count based on the platform's name.
@@ -24,7 +24,7 @@ public class PlatformHit : MonoBehaviour
 
         // Set random hit count between minimum and maximum
         _mustHitTimes = UnityEngine.Random.Range(_minMustTimes, _maxMustTimes + 1);
-        _textHitTimes.text = $"X {_mustHitTimes}";
+       // _textHitTimes.text = $"X {_mustHitTimes}";
     }
 
     /// <summary>
@@ -48,13 +48,13 @@ public class PlatformHit : MonoBehaviour
             // Play bounce sound effect
             AudioManager.PlayFromResources("Bounce", 0.1f, UnityEngine.Random.Range(0.8f, 1.2f));
             _mustHitTimes -= 1; // Decrement the hit count
-            _textHitTimes.text = $"X {_mustHitTimes}"; // Update UI text
+            //_textHitTimes.text = $"X {_mustHitTimes}"; // Update UI text
 
             // Check if the platform is destroyed
             if (_mustHitTimes == 0)
             {
                 GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 0.4f); // Fade the platform
-                _textHitTimes.color = new Color(0, 0, 0, 0.7f); // Fade the hit text
+               // _textHitTimes.color = new Color(0, 0, 0, 0.7f); // Fade the hit text
                 GetComponent<BoxCollider2D>().enabled = false; // Disable the collider
             }
         }

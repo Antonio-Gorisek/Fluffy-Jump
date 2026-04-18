@@ -35,6 +35,7 @@ public class GameManager : Singleton<GameManager>
     [SerializeField] private Animator _startGameAnim;
     [SerializeField] private Animator _gameOverAnim;
     [SerializeField] private TMP_Text _gameOverReason;
+    [SerializeField] private TMP_Text _gameScore;
 
     /// <summary>
     /// Sets the game state to inactive when the script is enabled.
@@ -109,8 +110,11 @@ public class GameManager : Singleton<GameManager>
     /// <summary>
     /// Increments the count of platform hits by one.
     /// </summary>
-    public void AddPlatfromHit() => _platformHits++;
-
+    public void AddPlatfromHit()
+    {
+        _platformHits++;
+        _gameScore.text = $"Score: {_platformHits}";
+    }
     /// <summary>
     /// Gets the current count of platform hits.
     /// </summary>
@@ -158,7 +162,7 @@ public class GameManager : Singleton<GameManager>
         _parallaxBackground?.gameObject?.SetActive(value);
         _platformSpawner?.gameObject?.SetActive(value);
         _playerController?.gameObject?.SetActive(value);
-        canvas?.gameObject?.SetActive(!value);
+        //canvas?.gameObject?.SetActive(!value);
     }
 
     /// <summary>

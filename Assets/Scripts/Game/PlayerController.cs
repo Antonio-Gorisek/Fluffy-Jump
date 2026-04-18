@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
         // Allow player to fall immediately when the space key or touch screen is pressed
         if (!_isGrounded && (Input.GetKeyDown(KeyCode.Space) || (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) || Input.GetMouseButtonDown(0)))
         {
-            _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, -JumpForce * 2);
+            _rigidbody2D.linearVelocity = new Vector2(_rigidbody2D.linearVelocity.x, -JumpForce * 2);
         }
     }
 
@@ -57,7 +57,7 @@ public class PlayerController : MonoBehaviour
     private void Jump()
     {
         hasHitFirstPlatform = true;
-        _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, JumpForce);
+        _rigidbody2D.linearVelocity = new Vector2(_rigidbody2D.linearVelocity.x, JumpForce);
     }
 
     void FixedUpdate()
@@ -67,7 +67,7 @@ public class PlayerController : MonoBehaviour
 
         // Update animator parameters
         _animator.SetBool("IsGrounded", _isGrounded);
-        _animator.SetFloat("vSpeed", _rigidbody2D.velocity.y);
+        _animator.SetFloat("vSpeed", _rigidbody2D.linearVelocity.y);
     }
 
     /// <summary>
